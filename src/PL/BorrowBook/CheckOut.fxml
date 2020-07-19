@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="512.0" prefWidth="878.0" style="-fx-background-color: white;" stylesheets="@../../CSS/main.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PL.BorrowBook.CheckOutListener">
+
+   <children>
+      <Button fx:id="confirmButton" layoutX="61.0" layoutY="286.0" mnemonicParsing="false" onAction="#handleConfirmButton" text="Confirm" />
+      <Button fx:id="cancelButton" layoutX="134.0" layoutY="286.0" mnemonicParsing="false" onAction="#handleCancelButton" prefHeight="31.0" prefWidth="73.0" text="Cancel" />
+      <ScrollPane layoutX="23.0" layoutY="50.0" prefHeight="225.0" prefWidth="827.0" stylesheets="@../../CSS/CheckOut.css">
+         <content>
+            <HBox fx:id="bookHBox" prefHeight="221.0" prefWidth="825.0" style="-fx-background-color: white;" />
+         </content>
+      </ScrollPane>
+      <Label fx:id="messageLabel" layoutX="364.0" layoutY="406.0" />
+   </children>
+</Pane>

@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="librarysystem@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.4">
+    <root id="1"/>
+    <schema id="2" parent="1" name="librarysystem">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="information_schema"/>
+    <schema id="4" parent="1" name="mysql"/>
+    <schema id="5" parent="1" name="performance_schema"/>
+    <schema id="6" parent="1" name="phpmyadmin"/>
+    <schema id="7" parent="1" name="test"/>
+    <schema id="8" parent="1" name="user"/>
+    <table id="9" parent="2" name="admininfo"/>
+    <table id="10" parent="2" name="bookcopyinfo"/>
+    <table id="11" parent="2" name="bookinfo"/>
+    <table id="12" parent="2" name="borrowerinfo"/>
+    <table id="13" parent="2" name="borrowinginfo"/>
+    <table id="14" parent="2" name="cardinfo"/>
+    <table id="15" parent="2" name="guestinfo"/>
+    <table id="16" parent="2" name="librarian"/>
+    <table id="17" parent="2" name="userinfo"/>
+    <column id="18" parent="9" name="adminID">
+      <Position>1</Position>
+      <Comment>admin id number</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="19" parent="9" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>adminID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="20" parent="9" name="adminID">
+      <ColNames>adminID</ColNames>
+      <RefSchemaName>librarysystem</RefSchemaName>
+      <RefTableName>userinfo</RefTableName>
+      <RefColNames>userID</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="21" parent="10" name="copyNumber">
+      <Position>1</Position>
+      <Comment>copy number of a book</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="22" parent="10" name="bookNumber">
+      <Position>2</Position>
+      <Comment>book id number</Comment>
+      <DataType>varchar(6)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="23" parent="10" name="type">
+      <Position>3</Position>
+      <Comment>type of copy</Comment>
+      <DataType>varchar(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="24" parent="10" name="price">
+      <Position>4</Position>
+      <Comment>price of copy</Comment>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="25" parent="10" name="status">
+      <Position>5</Position>
+      <Comment>status of copy</Comment>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="26" parent="10" name="bookNumber">
+      <ColNames>bookNumber</ColNames>
+    </index>
+    <key id="27" parent="10" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>copyNumber
+bookNumber</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="28" parent="10" name="bookNumber">
+      <ColNames>bookNumber</ColNames>
+      <RefSchemaName>librarysystem</RefSchemaName>
+      <RefTableName>bookinfo</RefTableName>
+      <RefColNames>bookNumber</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="29" parent="11" name="bookNumber">
+      <Position>1</Position>
+      <Comment>format XX9999</Comment>
+      <DataType>varchar(6)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="30" parent="11" name="title">
+      <Position>2</Position>
+      <Comment>book_title</Comment>
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="31" parent="11" name="author">
+      <Position>3</Position>
+      <Comment>book_author</Comment>
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="32" parent="11" name="publisher">
+      <Position>4</Position>
+      <Comment>book_publisher</Comment>
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="33" parent="11" name="ISBN">
+      <Position>5</Position>
+      <Comment>ISBN code</Comment>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="34" parent="11" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>bookNumber</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="35" parent="12" name="borrowerID">
+      <Position>1</Position>
+      <Comment>borrower id number</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="36" parent="12" name="isHustStudent">
+      <Position>2</Position>
+      <Comment>hust student or not</Comment>
+      <DataType>tinyint(1)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="37" parent="12" name="isBorrowAble">
+      <Position>3</Position>
+      <Comment>able to borrow or not</Comment>
+      <DataType>tinyint(1)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;1&apos;</DefaultExpression>
+    </column>
+    <column id="38" parent="12" name="currentBorrowingBook">
+      <Position>4</Position>
+      <Comment>number of current borrowing book</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <key id="39" parent="12" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>borrowerID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="40" parent="12" name="id">
+      <ColNames>borrowerID</ColNames>
+      <RefSchemaName>librarysystem</RefSchemaName>
+      <RefTableName>userinfo</RefTableName>
+      <RefColNames>userID</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="41" parent="13" name="borrowerID">
+      <Position>1</Position>
+      <Comment>borrower id number</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="42" parent="13" name="bookNumber">
+      <Position>2</Position>
+      <Comment>book id string</Comment>
+      <DataType>varchar(6)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="43" parent="13" name="copyNumber">
+      <Position>3</Position>
+      <Comment>copy id number of a book</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="44" parent="13" name="status">
+      <Position>4</Position>
+      <Comment>status of current borrowing</Comment>
+      <DataType>enum(&apos;Pending&apos;, &apos;Taken&apos;, &apos;Returned&apos;)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;Pending&apos;</DefaultExpression>
+    </column>
+    <column id="45" parent="13" name="dueDate">
+      <Position>5</Position>
+      <Comment>deadline return book</Comment>
+      <DataType>date|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="46" parent="13" name="expiredDate">
+      <Position>6</Position>
+      <Comment>deadline collect book</Comment>
+      <DataType>date|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="47" parent="13" name="book#">
+      <ColNames>bookNumber</ColNames>
+    </index>
+    <index id="48" parent="13" name="copy#">
+      <ColNames>copyNumber</ColNames>
+    </index>
+    <key id="49" parent="13" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>borrowerID
+bookNumber
+copyNumber</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="50" parent="13" name="borrowID">
+      <ColNames>borrowerID</ColNames>
+      <RefSchemaName>librarysystem</RefSchemaName>
+      <RefTableName>borrowerinfo</RefTableName>
+      <RefColNames>borrowerID</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <foreign-key id="51" parent="13" name="book#">
+      <ColNames>bookNumber</ColNames>
+      <RefSchemaName>librarysystem</RefSchemaName>
+      <RefTableName>bookcopyinfo</RefTableName>
+      <RefColNames>bookNumber</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <foreign-key id="52" parent="13" name="copy#">
+      <ColNames>copyNumber</ColNames>
+      <RefSchemaName>librarysystem</RefSchemaName>
+      <RefTableName>bookcopyinfo</RefTableName>
+      <RefColNames>copyNumber</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="53" parent="14" name="CardID">
+      <Position>1</Position>
+      <Comment>Card id number</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="54" parent="14" name="ExpiredDate">
+      <Position>2</Position>
+      <Comment>card_expire time</Comment>
+      <DataType>date|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="55" parent="14" name="isActivated">
+      <Position>3</Position>
+      <Comment>activate_status</Comment>
+      <DataType>tinyint(1)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="56" parent="14" name="borrowerID">
+      <Position>4</Position>
+      <Comment>owner of card</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="57" parent="14" name="borrowerID">
+      <ColNames>borrowerID</ColNames>
+    </index>
+    <key id="58" parent="14" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>CardID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="59" parent="14" name="borrowerID">
+      <ColNames>borrowerID</ColNames>
+      <RefSchemaName>librarysystem</RefSchemaName>
+      <RefTableName>borrowerinfo</RefTableName>
+      <RefColNames>borrowerID</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="60" parent="15" name="guestID">
+      <Position>1</Position>
+      <Comment>guest id number</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="61" parent="15" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>guestID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="62" parent="15" name="guestID">
+      <ColNames>guestID</ColNames>
+      <RefSchemaName>librarysystem</RefSchemaName>
+      <RefTableName>userinfo</RefTableName>
+      <RefColNames>userID</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="63" parent="16" name="librarianID">
+      <Position>1</Position>
+      <Comment>librarian id number</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="64" parent="16" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>librarianID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="65" parent="16" name="librarianID">
+      <ColNames>librarianID</ColNames>
+      <RefSchemaName>librarysystem</RefSchemaName>
+      <RefTableName>userinfo</RefTableName>
+      <RefColNames>userID</RefColNames>
+      <OnUpdate>cascade</OnUpdate>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="66" parent="17" name="userID">
+      <Position>1</Position>
+      <Comment>user id number</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="67" parent="17" name="username">
+      <Position>2</Position>
+      <Comment>username</Comment>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="68" parent="17" name="password">
+      <Position>3</Position>
+      <Comment>password</Comment>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="69" parent="17" name="role">
+      <Position>4</Position>
+      <Comment>user&apos;s role</Comment>
+      <DataType>enum(&apos;Guest&apos;, &apos;Borrower&apos;, &apos;Librarian&apos;, &apos;Administrator&apos;)|0</DataType>
+      <DefaultExpression>&apos;Guest&apos;</DefaultExpression>
+    </column>
+    <column id="70" parent="17" name="name">
+      <Position>5</Position>
+      <Comment>real name of User</Comment>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="71" parent="17" name="email">
+      <Position>6</Position>
+      <Comment>user&apos;s email</Comment>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="72" parent="17" name="gender">
+      <Position>7</Position>
+      <Comment>user&apos;s gender</Comment>
+      <DataType>enum(&apos;Male&apos;, &apos;Female&apos;)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="73" parent="17" name="phoneNumber">
+      <Position>8</Position>
+      <Comment>user&apos;s phone number</Comment>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="74" parent="17" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>userID</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

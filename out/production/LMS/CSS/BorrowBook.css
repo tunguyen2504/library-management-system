@@ -1,0 +1,33 @@
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+.scroll-pane {
+    -fx-background-color: transparent;
+}
+
+#sysNameHBox {
+    -fx-background-color: #cc0000;
+    -fx-border-color: rgba(121, 121, 121, 1);
+    -fx-effect: dropshadow(three-pass-box, rgba(153, 51, 0, 0.3), 0, 0, 0, 3);
+}
+
+#sysNameLabel {
+    -fx-text-fill: white;
+}
+
+#welcomeLabel {
+    -fx-text-fill: white;
+}
+
+#hyperlink {
+    -fx-text-fill: white;
+}
+
+#leftVBox {
+    -fx-background-color: #f2f2f2;
+    -fx-border-color: #999999;
+}
+
+#curHBox {
+    -fx-background-color: #f2f2f2;
+}

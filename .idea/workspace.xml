@@ -1,0 +1,1515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LMS/BLL/UpdateBorrowingCardInfoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LMS/BLL/UpdateBorrowingCardInfoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LMS/DAL/BookInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LMS/DAL/BookInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LMS/DAL/BorrowerInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LMS/DAL/BorrowerInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LMS/DAL/BorrowingInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LMS/DAL/BorrowingInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LMS/DAL/CardInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LMS/DAL/CardInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LMS/DAL/MySQLAccess.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LMS/DAL/MySQLAccess.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LMS/DAL/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LMS/DAL/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../LMS/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/out/production/LMS/BLL/BorrowBookController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/out/production/LMS/BLL/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/out/production/LMS/BLL/RegisterNewBookCopyController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/out/production/LMS/BLL/RegisterNewBookEntryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/out/production/LMS/BLL/ReturnBookController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/out/production/LMS/BLL/SearchBookController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/out/production/LMS/BLL/UpdateBookInformationController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/out/production/LMS/BLL/UpdateBorrowingCardInfoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/out/production/LMS/DAL/BookInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/out/production/LMS/DAL/BorrowerInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/out/production/LMS/DAL/BorrowingInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/out/production/LMS/DAL/CardInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/out/production/LMS/DAL/MySQLAccess.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/out/production/LMS/DAL/Query.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/out/production/LMS/DAL/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/out/production/LMS/PL/AddNewCopy/AddNewCopyForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/out/production/LMS/PL/AddNewCopy/AddNewCopyListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/out/production/LMS/PL/AddNewEntry/AddNewEntryForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/out/production/LMS/PL/AddNewEntry/AddNewEntryListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/out/production/LMS/PL/AlertMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/out/production/LMS/PL/BorrowBook/BorrowBookForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/out/production/LMS/PL/BorrowBook/BorrowBookListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/out/production/LMS/PL/BorrowBook/CheckOutForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/out/production/LMS/PL/BorrowBook/CheckOutListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/out/production/LMS/PL/Login/LoginForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/out/production/LMS/PL/Login/LoginFormListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/out/production/LMS/PL/ReturnBook/BillForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/out/production/LMS/PL/ReturnBook/BillListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/out/production/LMS/PL/ReturnBook/ReturnBookForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/out/production/LMS/PL/ReturnBook/ReturnBookListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/out/production/LMS/PL/SearchBook/SearchBookForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/out/production/LMS/PL/SearchBook/SearchBookListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/out/production/LMS/PL/UpdateBookInformation/BookDetailUpdateForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/out/production/LMS/PL/UpdateBookInformation/BookDetailUpdateListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/out/production/LMS/PL/UpdateBookInformation/UpdateBookInformationForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/out/production/LMS/PL/UpdateBookInformation/UpdateBookInformationListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/out/production/LMS/PL/UpdateBorrowingCardInfo/CardDetailUpdateForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/out/production/LMS/PL/UpdateBorrowingCardInfo/CardDetailUpdateListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/out/production/LMS/PL/UpdateBorrowingCardInfo/UpdateBorrowingCardInfoForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/out/production/LMS/PL/UpdateBorrowingCardInfo/UpdateBorrowingCardInfoListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/BLL/BorrowBookController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/BLL/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/BLL/RegisterNewBookCopyController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/BLL/RegisterNewBookEntryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/BLL/ReturnBookController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/BLL/SearchBookController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/BLL/UpdateBookInformationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/BLL/UpdateBorrowingCardInfoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/CSS/BorrowBook.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/CSS/CheckOut.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/CSS/Login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/CSS/alertBox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/CSS/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/DAL/BookInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/DAL/BorrowerInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/DAL/BorrowingInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/DAL/CardInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/DAL/MySQLAccess.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/DAL/Query.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/DAL/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/Images/BookCart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/PL/AddNewCopy/AddNewCopy.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/PL/AddNewCopy/AddNewCopyForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/PL/AddNewCopy/AddNewCopyListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/PL/AddNewEntry/AddNewEntry.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/PL/AddNewEntry/AddNewEntryForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/PL/AddNewEntry/AddNewEntryListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/PL/AlertMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/PL/BorrowBook/BorrowBook.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/PL/BorrowBook/BorrowBookForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/PL/BorrowBook/BorrowBookListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/PL/BorrowBook/CheckOut.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/PL/BorrowBook/CheckOutForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/PL/BorrowBook/CheckOutListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/PL/Login/LoginForm.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/PL/Login/LoginForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/PL/Login/LoginFormListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/PL/ReturnBook/Bill.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/PL/ReturnBook/BillForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/PL/ReturnBook/BillListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/PL/ReturnBook/ReturnBook.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/PL/ReturnBook/ReturnBookForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/PL/ReturnBook/ReturnBookListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/PL/SearchBook/SearchBook.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/PL/SearchBook/SearchBookForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/PL/SearchBook/SearchBookListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/PL/UpdateBookInformation/BookDetailUpdate.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/PL/UpdateBookInformation/BookDetailUpdateForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/PL/UpdateBookInformation/BookDetailUpdateListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/PL/UpdateBookInformation/UpdateBookInformation.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/PL/UpdateBookInformation/UpdateBookInformationForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/PL/UpdateBookInformation/UpdateBookInformationListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/PL/UpdateBorrowingCardInfo/CardDetailUpdate.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/PL/UpdateBorrowingCardInfo/CardDetailUpdateForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/PL/UpdateBorrowingCardInfo/CardDetailUpdateListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/PL/UpdateBorrowingCardInfo/UpdateBorrowingCardInfo.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/PL/UpdateBorrowingCardInfo/UpdateBorrowingCardInfoForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/PL/UpdateBorrowingCardInfo/UpdateBorrowingCardInfoListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/PL/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../LMS/src/PL/test.fxml" beforeDir="false" />
+    </list>
+    <ignored path="JavaFxApplication.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="librarysystem@localhost" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="librarysystem@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="librarysystem" type="e3449647:DbNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1124888186">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="iml" value="1" />
+          <entry key="java" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="5" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JavaFxApplication" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PL/Login/LoginForm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DAL/MySQLAccess.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1122">
+              <caret line="66" column="46" lean-forward="true" selection-start-line="66" selection-start-column="46" selection-end-line="66" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DAL/Query.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DAL/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-509">
+              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>warn</find>
+      <find>handleSelect</find>
+      <find>setIS</find>
+      <find>set</find>
+      <find>handleSu</find>
+      <find>fx:</find>
+      <find>stylesheets</find>
+      <find>Borrow</find>
+      <find>system.out</find>
+      <find>inset</find>
+      <find>total</find>
+      <find>pane</find>
+      <find>borrower</find>
+      <find>get</find>
+      <find>init</find>
+      <find>execute</find>
+      <find>setHeader</find>
+      <find>setheader</find>
+      <find>extractDate</find>
+      <find>alert</find>
+      <find>setBorrower</find>
+      <find>title</find>
+      <find>welcome</find>
+      <find>onactio</find>
+      <find>onaction</find>
+      <find>update book</find>
+      <find>category</find>
+      <find>form</find>
+      <find>yyyy</find>
+      <find>getCopyTypeByID</find>
+    </findStrings>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/PL/Login/LoginFormListener.java" />
+        <option value="$PROJECT_DIR$/src/PL/SearchBook/SearchBookForm.java" />
+        <option value="$PROJECT_DIR$/src/PL/AddNewEntry/AddNewEntryForm.java" />
+        <option value="$PROJECT_DIR$/src/PL/AddNewCopy/AddNewCopyForm.java" />
+        <option value="$PROJECT_DIR$/src/PL/BorrowBook/CheckOut.fxml" />
+        <option value="$PROJECT_DIR$/src/PL/AddNewCopy/AddNewCopy.fxml" />
+        <option value="$PROJECT_DIR$/src/PL/AddNewEntry/AddNewEntry.fxml" />
+        <option value="$PROJECT_DIR$/src/PL/Login/LoginForm.java" />
+        <option value="$PROJECT_DIR$/src/DAL/BorrowingInfo.java" />
+        <option value="$PROJECT_DIR$/src/DAL/User.java" />
+        <option value="$PROJECT_DIR$/src/DAL/MySQLAccess.java" />
+        <option value="$PROJECT_DIR$/src/DAL/Query.java" />
+        <option value="$PROJECT_DIR$/src/DAL/BorrowerInfo.java" />
+        <option value="$PROJECT_DIR$/src/DAL/CardInfo.java" />
+        <option value="$PROJECT_DIR$/src/BLL/ReturnBookController.java" />
+        <option value="$PROJECT_DIR$/src/UcUpdateCardInfoTest/WhiteBoxUpdateCardInfoTest.java" />
+        <option value="$PROJECT_DIR$/src/PL/UpdateBorrowingCardInfo/CardDetailUpdateListener.java" />
+        <option value="$PROJECT_DIR$/src/PL/BorrowBook/BorrowBookForm.java" />
+        <option value="$PROJECT_DIR$/src/PL/BorrowBook/CheckOutForm.java" />
+        <option value="$PROJECT_DIR$/src/PL/ReturnBook/BillForm.java" />
+        <option value="$PROJECT_DIR$/src/UCTest01/BlackBoxBorrowTest.java" />
+        <option value="$PROJECT_DIR$/src/PL/ReturnBook/BillListener.java" />
+        <option value="$PROJECT_DIR$/src/PL/BorrowBook/CheckOutListener.java" />
+        <option value="$PROJECT_DIR$/src/PL/AddNewCopy/AddNewCopyListener.java" />
+        <option value="$PROJECT_DIR$/src/UCNewEntryTest/WhiteBoxNewEntryTest.java" />
+        <option value="$PROJECT_DIR$/src/UCNewEntryTest/BlackBoxNewEntryTest.java" />
+        <option value="$PROJECT_DIR$/src/UCNewCopyTest/WhiteBoxNewCopyTest.java" />
+        <option value="$PROJECT_DIR$/src/UCBorrowBookTest/WhiteBoxBorrowTest.java" />
+        <option value="$PROJECT_DIR$/src/UCNewCopyTest/BlackBoxNewCopyTest.java" />
+        <option value="$PROJECT_DIR$/src/UCBorrowBookTest/BlackBoxBorrowTest.java" />
+        <option value="$PROJECT_DIR$/src/UCReturnTest/BlackBoxReturnTest.java" />
+        <option value="$PROJECT_DIR$/src/PL/AddNewEntry/AddNewEntryListener.java" />
+        <option value="$PROJECT_DIR$/src/BLL/BorrowBookController.java" />
+        <option value="$PROJECT_DIR$/src/PL/BorrowBook/BorrowBookListener.java" />
+        <option value="$PROJECT_DIR$/src/CSS/main.css" />
+        <option value="$PROJECT_DIR$/src/PL/ReturnBook/ReturnBookForm.java" />
+        <option value="$PROJECT_DIR$/src/PL/UpdateBorrowingCardInfo/UpdateBorrowingCardInfoListener.java" />
+        <option value="$PROJECT_DIR$/src/PL/UpdateBookInformation/UpdateBookInformationForm.java" />
+        <option value="$PROJECT_DIR$/src/PL/UpdateBorrowingCardInfo/UpdateBorrowingCardInfo.fxml" />
+        <option value="$PROJECT_DIR$/src/PL/UpdateBookInformation/UpdateBookInformation.fxml" />
+        <option value="$PROJECT_DIR$/src/PL/SearchBook/SearchBookListener.java" />
+        <option value="$PROJECT_DIR$/src/PL/ReturnBook/ReturnBookListener.java" />
+        <option value="$PROJECT_DIR$/src/PL/SearchBook/SearchBook.fxml" />
+        <option value="$PROJECT_DIR$/src/PL/ReturnBook/ReturnBook.fxml" />
+        <option value="$PROJECT_DIR$/src/PL/UpdateBookInformation/UpdateBookInformationListener.java" />
+        <option value="$PROJECT_DIR$/src/PL/BorrowBook/BorrowBook.fxml" />
+        <option value="$PROJECT_DIR$/src/PL/UpdateBookInformation/BookDetailUpdate.fxml" />
+        <option value="$PROJECT_DIR$/src/BLL/SearchBookController.java" />
+        <option value="$PROJECT_DIR$/src/PL/UpdateBookInformation/BookDetailUpdateListener.java" />
+        <option value="$PROJECT_DIR$/src/DAL/BookInfo.java" />
+        <option value="$PROJECT_DIR$/src/BLL/UpdateBookInformationController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1612" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="LMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LMS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LMS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LMS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="BLL" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LMS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="DAL" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LMS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="PL" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LMS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="PL" type="462c0819:PsiDirectoryNode" />
+              <item name="AddNewCopy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LMS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="PL" type="462c0819:PsiDirectoryNode" />
+              <item name="BorrowBook" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LMS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="PL" type="462c0819:PsiDirectoryNode" />
+              <item name="Login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LMS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="PL" type="462c0819:PsiDirectoryNode" />
+              <item name="ReturnBook" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LMS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="PL" type="462c0819:PsiDirectoryNode" />
+              <item name="SearchBook" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LMS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="PL" type="462c0819:PsiDirectoryNode" />
+              <item name="UpdateBookInformation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LMS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="PL" type="462c0819:PsiDirectoryNode" />
+              <item name="UpdateBorrowingCardInfo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LMS" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.26519337" />
+    <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\HUST\Term7\Software\lab\LMS\src\PL" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="BLL" />
+      <recent name="DAL" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\HUST\Term7\Software\lab\LMS\Test" />
+      <recent name="E:\HUST\Term7\Software\lab\LMS\src\PL\BorrowBook" />
+      <recent name="E:\HUST\Term7\Software\lab\LMS\src\PL\Login" />
+      <recent name="E:\HUST\Term7\Software\lab\LMS\src\CSS" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookDetailUpdateForm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PL.UpdateBookInformation.BookDetailUpdateForm" />
+      <module name="LMS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PL.UpdateBookInformation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BorrowBook" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="PL.BorrowBook.BorrowBookForm" />
+      <module name="LMS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="PL.Login.LoginForm" />
+      <module name="LMS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReturnBookForm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PL.ReturnBook.ReturnBookForm" />
+      <module name="LMS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PL.ReturnBook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchBookForm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PL.SearchBook.SearchBookForm" />
+      <module name="LMS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PL.SearchBook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpdateBookInformationForm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PL.UpdateBookInformation.UpdateBookInformationForm" />
+      <module name="LMS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PL.UpdateBookInformation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="sample.Main" />
+      <module name="LMS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlackBoxReturnTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LMS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UCReturnTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="UCReturnTest" />
+      <option name="MAIN_CLASS_NAME" value="UCReturnTest.BlackBoxReturnTest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.BorrowBook" />
+      <item itemvalue="Application.test" />
+      <item itemvalue="JUnit.BlackBoxReturnTest" />
+      <item itemvalue="Application.ReturnBookForm" />
+      <item itemvalue="Application.SearchBookForm" />
+      <item itemvalue="Application.BookDetailUpdateForm" />
+      <item itemvalue="Application.UpdateBookInformationForm" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.UpdateBookInformationForm" />
+        <item itemvalue="Application.BookDetailUpdateForm" />
+        <item itemvalue="Application.ReturnBookForm" />
+        <item itemvalue="Application.SearchBookForm" />
+        <item itemvalue="JUnit.BlackBoxReturnTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+      <created>1359379246138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1359379246138</updated>
+      <workItem from="1359379250712" duration="1302000" />
+      <workItem from="1510745154673" duration="24209000" />
+      <workItem from="1510811479244" duration="694000" />
+      <workItem from="1510816427390" duration="2204000" />
+      <workItem from="1510824721855" duration="2438000" />
+      <workItem from="1510835062242" duration="18428000" />
+      <workItem from="1510862926805" duration="137000" />
+      <workItem from="1510863193306" duration="11488000" />
+      <workItem from="1510875048555" duration="7282000" />
+      <workItem from="1510926591879" duration="6665000" />
+      <workItem from="1510934502601" duration="310000" />
+      <workItem from="1510934842816" duration="12000" />
+      <workItem from="1511009907468" duration="1550000" />
+      <workItem from="1511012128567" duration="9476000" />
+      <workItem from="1511194515152" duration="888000" />
+      <workItem from="1511199032097" duration="2509000" />
+      <workItem from="1511202633584" duration="12297000" />
+      <workItem from="1511215942358" duration="539000" />
+      <workItem from="1511250233671" duration="1142000" />
+      <workItem from="1511251437304" duration="48000" />
+      <workItem from="1511607110227" duration="5688000" />
+      <workItem from="1511615932896" duration="11935000" />
+      <workItem from="1511767951355" duration="217000" />
+      <workItem from="1511772212814" duration="60000" />
+      <workItem from="1511774377002" duration="2989000" />
+      <workItem from="1511781761957" duration="3663000" />
+      <workItem from="1511789005569" duration="671000" />
+      <workItem from="1511800603752" duration="352000" />
+      <workItem from="1511801022636" duration="767000" />
+      <workItem from="1511847019757" duration="81000" />
+      <workItem from="1511855495198" duration="661000" />
+      <workItem from="1511859402738" duration="966000" />
+      <workItem from="1512041502453" duration="623000" />
+      <workItem from="1512051456331" duration="398000" />
+      <workItem from="1512312743114" duration="3811000" />
+      <workItem from="1512316891538" duration="975000" />
+      <workItem from="1512372963331" duration="850000" />
+      <workItem from="1512374566466" duration="1123000" />
+      <workItem from="1512376079755" duration="2764000" />
+      <workItem from="1512406629559" duration="1889000" />
+      <workItem from="1512443576049" duration="7010000" />
+      <workItem from="1512466310490" duration="263000" />
+      <workItem from="1512466643254" duration="379000" />
+      <workItem from="1512467183693" duration="268000" />
+      <workItem from="1512467853645" duration="6044000" />
+      <workItem from="1512542179358" duration="662000" />
+      <workItem from="1512543896473" duration="505000" />
+      <workItem from="1512545790284" duration="991000" />
+      <workItem from="1512549939202" duration="2613000" />
+      <workItem from="1512553429773" duration="1139000" />
+      <workItem from="1512558576291" duration="1396000" />
+      <workItem from="1512559975790" duration="20000" />
+      <workItem from="1512560017033" duration="678000" />
+      <workItem from="1512561846683" duration="1043000" />
+      <workItem from="1512563665922" duration="34000" />
+      <workItem from="1512563709337" duration="2221000" />
+      <workItem from="1512566619806" duration="8730000" />
+      <workItem from="1512575873711" duration="684000" />
+      <workItem from="1512605280669" duration="4048000" />
+    </task>
+    <task id="LOCAL-00001" summary="add updateFunctions">
+      <created>1511014420377</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1511014420377</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update checkout function">
+      <created>1511021599141</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1511021599141</updated>
+    </task>
+    <task id="LOCAL-00003" summary="workspace">
+      <created>1511847078359</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1511847078359</updated>
+    </task>
+    <task id="LOCAL-00004" summary="FIX UI">
+      <created>1512316545768</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1512316545768</updated>
+    </task>
+    <task id="LOCAL-00005" summary="FIX dropshadow UI">
+      <created>1512317855122</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1512317855122</updated>
+    </task>
+    <task id="LOCAL-00006" summary="EDIT javadoc, ADD warnExpire() for BorrowBookController">
+      <created>1512450579362</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1512450579362</updated>
+    </task>
+    <task id="LOCAL-00007" summary="FIX update borrowerInfo UC BorrowBook">
+      <created>1512468346875</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1512468346876</updated>
+    </task>
+    <task id="LOCAL-00008" summary="FIX update borrowerInfo UC BorrowBook">
+      <created>1512479463871</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1512479463871</updated>
+    </task>
+    <task id="LOCAL-00009" summary="FIX typo UC ReturnBook">
+      <created>1512479491675</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1512479491675</updated>
+    </task>
+    <task id="LOCAL-00010" summary="FIX alert">
+      <created>1512544376855</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1512544376855</updated>
+    </task>
+    <task id="LOCAL-00011" summary="ADD javadoc boundary">
+      <created>1512550110235</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1512550110235</updated>
+    </task>
+    <task id="LOCAL-00012" summary="FIX button position">
+      <created>1512553592511</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1512553592511</updated>
+    </task>
+    <task id="LOCAL-00013" summary="FIX date Format">
+      <created>1512554646199</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1512554646199</updated>
+    </task>
+    <task id="LOCAL-00014" summary="ADD javadoc Trung's UCs">
+      <created>1512562564515</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1512562564515</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Rename test packages">
+      <created>1512562875426</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1512562875426</updated>
+    </task>
+    <task id="LOCAL-00016" summary="FIX Junit test">
+      <created>1512565760045</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1512565760045</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Trung FIX alert popup">
+      <created>1512566694659</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1512566694659</updated>
+    </task>
+    <task id="LOCAL-00018" summary="ADD link between UC">
+      <created>1512572427183</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1512572427183</updated>
+    </task>
+    <task id="LOCAL-00019" summary="EDIT navbar UI">
+      <created>1512575586622</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1512575586622</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="BlackBoxReturnTest - 2017.12.06 at 19h 58m 31s.xml">
+      <configuration name="BlackBoxReturnTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BlackBoxReturnTest - 2017.12.06 at 19h 59m 04s.xml">
+      <configuration name="BlackBoxReturnTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BlackBoxReturnTest - 2017.12.06 at 20h 00m 07s.xml">
+      <configuration name="BlackBoxReturnTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BlackBoxReturnTest - 2017.12.06 at 20h 00m 59s.xml">
+      <configuration name="BlackBoxReturnTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BlackBoxReturnTest - 2017.12.06 at 20h 06m 51s.xml">
+      <configuration name="BlackBoxReturnTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BlackBoxReturnTest - 2017.12.06 at 20h 07m 15s.xml">
+      <configuration name="BlackBoxReturnTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BlackBoxReturnTest - 2017.12.06 at 20h 07m 27s.xml">
+      <configuration name="BlackBoxReturnTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BlackBoxReturnTest - 2017.12.06 at 20h 07m 56s.xml">
+      <configuration name="BlackBoxReturnTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BlackBoxReturnTest - 2017.12.06 at 20h 08m 30s.xml">
+      <configuration name="BlackBoxReturnTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BlackBoxReturnTest_getBorrowingInfo - 2017.12.06 at 19h 58m 17s.xml">
+      <configuration name="BlackBoxReturnTest.getBorrowingInfo" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="184189000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.31556502" />
+      <window_info id="Structure" order="1" weight="0.24973147" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3325792" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2360515" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.31900454" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Changes" order="8" />
+      <window_info anchor="bottom" id="Profiler" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32918552" />
+      <window_info anchor="bottom" id="Problems" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32918552" />
+      <window_info anchor="bottom" id="Terminal" order="14" weight="0.32918552" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24973147" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="JetGradle" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32975295" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.22771214" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Favorites" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32918552" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23642534" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39932126" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" />
+      <window_info anchor="bottom" id="Application Servers" order="8" />
+      <window_info anchor="bottom" id="Profiler" order="9" />
+      <window_info anchor="bottom" id="Changes" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32918552" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Problems" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24973147" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32975295" />
+      <window_info anchor="right" id="JetGradle" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <MESSAGE value="add updateFunctions" />
+    <MESSAGE value="update checkout function" />
+    <MESSAGE value="workspace" />
+    <MESSAGE value="FIX UI" />
+    <MESSAGE value="FIX dropshadow UI" />
+    <MESSAGE value="EDIT javadoc, ADD warnExpire() for BorrowBookController" />
+    <MESSAGE value="FIX update borrowerInfo UC BorrowBook" />
+    <MESSAGE value="FIX typo UC ReturnBook" />
+    <MESSAGE value="FIX alert" />
+    <MESSAGE value="ADD javadoc boundary" />
+    <MESSAGE value="FIX button position" />
+    <MESSAGE value="FIX date Format" />
+    <MESSAGE value="ADD javadoc Trung's UCs" />
+    <MESSAGE value="Rename test packages" />
+    <MESSAGE value="FIX Junit test" />
+    <MESSAGE value="Trung FIX alert popup" />
+    <MESSAGE value="ADD link between UC" />
+    <MESSAGE value="CHANGE folder" />
+    <MESSAGE value="EDIT navbar UI" />
+    <option name="LAST_COMMIT_MESSAGE" value="EDIT navbar UI" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DAL/BorrowingInfo.java</url>
+          <line>106</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/BLL/RegisterNewBookCopyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="13" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PL/AddNewEntry/AddNewEntryForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="21" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BLL/RegisterNewBookEntryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DAL/BorrowerInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="34" column="21" lean-forward="true" selection-end-line="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DAL/CardInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1281">
+          <caret line="80" column="13" lean-forward="true" selection-end-line="156" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PL/ReturnBook/Bill.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="83" selection-start-line="12" selection-start-column="83" selection-end-line="12" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/UCReturnTest/WhiteBoxReturnTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/stream/ForEachOps.java" />
+    <entry file="file://$PROJECT_DIR$/Test/UCNewEntryTest/BlackBoxNewEntryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/UCNewCopyTest/WhiteBoxNewCopyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/UCNewEntryTest/WhiteBoxNewEntryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/UCBorrowBookTest/WhiteBoxBorrowTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/UCBorrowBookTest/BlackBoxBorrowTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="72" column="22" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BLL/ReturnBookController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="36" column="17" lean-forward="true" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DAL/BorrowingInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/UCReturnTest/BlackBoxReturnTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/UCNewCopyTest/BlackBoxNewCopyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="70" column="39" lean-forward="true" selection-start-line="70" selection-start-column="39" selection-end-line="70" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PL/AddNewEntry/AddNewEntryListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="116" column="57" selection-start-line="116" selection-start-column="57" selection-end-line="116" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BLL/BorrowBookController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-111">
+          <caret line="158" selection-start-line="158" selection-end-line="158" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PL/BorrowBook/BorrowBookForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-499">
+          <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PL/Login/LoginFormListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="58" column="13" lean-forward="true" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CSS/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="38" column="45" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PL/SearchBook/SearchBookForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="53" column="5" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="53" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/UcUpdateCardInfoTest/WhiteBoxUpdateCardInfoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1659">
+          <caret line="95" column="5" lean-forward="true" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PL/ReturnBook/ReturnBookForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+          <folding>
+            <element signature="e#1138#1158#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PL/UpdateBookInformation/UpdateBookInformationForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-84">
+          <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+          <folding>
+            <element signature="imports" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PL/UpdateBookInformation/UpdateBookInformation.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="115" column="23" selection-start-line="115" selection-start-column="23" selection-end-line="115" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PL/UpdateBorrowingCardInfo/UpdateBorrowingCardInfo.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="101" column="37" lean-forward="true" selection-start-line="101" selection-start-column="37" selection-end-line="101" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PL/BorrowBook/CheckOut.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PL/UpdateBorrowingCardInfo/UpdateBorrowingCardInfoListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="45" column="85" selection-start-line="45" selection-start-column="81" selection-end-line="45" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PL/SearchBook/SearchBookListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1706">
+          <caret line="231" column="5" selection-start-line="231" selection-start-column="5" selection-end-line="231" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PL/UpdateBookInformation/BookDetailUpdateForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-394">
+          <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PL/AddNewCopy/AddNewCopyListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1769">
+          <caret line="119" column="4" lean-forward="true" selection-start-line="119" selection-start-column="4" selection-end-line="119" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PL/SearchBook/SearchBook.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="64" column="29" lean-forward="true" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PL/ReturnBook/ReturnBook.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-278">
+          <caret line="103" column="23" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PL/UpdateBookInformation/BookDetailUpdate.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="147" column="10" selection-start-line="147" selection-start-column="10" selection-end-line="147" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PL/BorrowBook/BorrowBook.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="75" column="160" selection-start-line="75" selection-start-column="160" selection-end-line="75" selection-end-column="160" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PL/BorrowBook/BorrowBookListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4856">
+          <caret line="274" column="60" selection-start-line="274" selection-start-column="60" selection-end-line="274" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/javafx-src.zip!/javafx/fxml/FXMLLoader.java" />
+    <entry file="file://$PROJECT_DIR$/src/PL/ReturnBook/ReturnBookListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3672">
+          <caret line="245" column="56" selection-start-line="245" selection-start-column="56" selection-end-line="245" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BLL/SearchBookController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="80" column="66" selection-start-line="80" selection-start-column="66" selection-end-line="80" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PL/UpdateBookInformation/BookDetailUpdateListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2550">
+          <caret line="185" column="46" selection-start-line="185" selection-start-column="46" selection-end-line="185" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DAL/BookInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2686">
+          <caret line="204" column="68" selection-start-line="204" selection-start-column="68" selection-end-line="204" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PL/UpdateBookInformation/UpdateBookInformationListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2618">
+          <caret line="185" column="62" selection-start-line="185" selection-start-column="62" selection-end-line="185" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BLL/UpdateBookInformationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LMS.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PL/Login/LoginForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DAL/Query.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DAL/MySQLAccess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="66" column="46" lean-forward="true" selection-start-line="66" selection-start-column="46" selection-end-line="66" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PL/AlertMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DAL/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-509">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>JavaFXApp</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.26519337" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.26519337" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>LMS</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.26519337" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>mysql-connector-java-5.1.44-bin</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.26519337" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
