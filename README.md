@@ -1,4 +1,4 @@
-#Software name: Library Management System
+# Library Management System
 
 A software for Library Management.
 Contained actors: Borrower, Librarian, Guest, Administrator.
